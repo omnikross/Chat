@@ -7,8 +7,11 @@ $(document).ready(function(){
 			data : {
 				message:text
 			},
-			success: function(b) {
-				alert('message');
+			success: function(arr) {
+				arr = $.parseJSON(arr);
+				$('#time').html(arr.time);
+				$('#name').html(arr.user);
+				$('#message').html(arr.message);
 			}
 		});
 	});
