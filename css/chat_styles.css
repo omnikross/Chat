@@ -39,7 +39,7 @@ table#messages {
 	border: none;
 }
 
-col#time, col#name {
+td#time, td#name {
 	width: 100px;
 }
 td#name {
@@ -50,7 +50,7 @@ div#inputs {
 	width: 495px;
 }
 
-div#text_submit {
+form#text_submit {
 	display: inline-flex;
 	align-items: flex-start;
 }
