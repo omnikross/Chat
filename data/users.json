@@ -1,6 +1,17 @@
 {
-    "qwe": "qwe",
-    "Angelika ": "05032000",
-    "Angelika": "05032000",
-    "max": "max"
+    "qweq": {
+        "name": "qweq",
+        "pass": "qweq",
+        "id": 0
+    },
+    "qwe": {
+        "name": "qwe",
+        "pass": "qwe",
+        "id": 1
+    },
+    "QWE": {
+        "name": "QWE",
+        "pass": "QWE",
+        "id": 2
+    }
 }
